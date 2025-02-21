@@ -1,8 +1,28 @@
-from gpt4all import GPT4All
+import requests
 
-model_path = "models/mistral-7b-instruct.gguf"  # Example model
-model = GPT4All(model_path)
+API_KEY = "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"
+url = "https://openrouter.ai/api/v1/chat/completions"
 
-# Generate a response
-response = model.generate("said hi!!")
-print(response)
+headers = {
+    "Authorization": f"Bearer {API_KEY}",
+    "Content-Type": "application/json"
+}
+
+token = 0
+
+while token < 9:
+    token+=1
+    inp = input("enter prompt: ")
+
+    data = {
+        "model": "google/gemini-2.0-flash-lite-preview-02-05:free",  # or another available model like "mixtral"
+        "messages": [{"role": "user", "content": f"{inp}"}],
+        "temperature": 0.7
+    }
+
+    response = requests.post(url, headers=headers, json=data)
+    response_json = response.json()
+
+    # Extract the content only
+    content = response_json["choices"][0]["message"]["content"]
+    print(content)
