@@ -24,5 +24,8 @@ while token < 9:
     response_json = response.json()
 
     # Extract the content only
-    content = response_json["choices"][0]["message"]["content"]
-    print(content)
+    if not response_json["choices"]:
+        print("no answer...")
+    else:
+        content = response_json["choices"][0]["message"]["content"]
+        print(content)
