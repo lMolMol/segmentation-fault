@@ -49,7 +49,7 @@ class Database:
             try:
                 cursor.execute(
                     """
-                    INSERT INTO courses (course_code, course_name, year, semester, course_outline) 
+                    INSERT OR IGNORE INTO courses (course_code, course_name, year, semester, course_outline) 
                     VALUES (?, ?, ?, ?, ?)
                     """,
                     (course_code, course_name, year, semester, course_outline),
@@ -63,7 +63,7 @@ class Database:
         with sqlite3.connect(self.db_name) as conn:
             cursor = conn.cursor()
             try:
-                cursor.execute("INSERT INTO emails (email) VALUES (?)", (email,))
+                cursor.execute("INSERT OR IGNORE INTO emails (email) VALUES (?)", (email,))
                 conn.commit()
             except sqlite3.IntegrityError:
                 raise ValueError(f"Email {email} already exists!")
@@ -79,13 +79,15 @@ class Database:
             course_id = cursor.fetchone()
 
             if not email_id:
-                raise ValueError(f"Email {email} not found.")
+                self.insert_email(email)
+                cursor.execute("SELECT id FROM emails WHERE email = ?", (email,))
+                email_id = cursor.fetchone()
             if not course_id:
                 raise ValueError(f"Course {course_code} not found.")
 
             try:
                 cursor.execute(
-                    "INSERT INTO course_registrations (email_id, course_id) VALUES (?, ?)",
+                    "INSERT OR IGNORE INTO course_registrations (email_id, course_id) VALUES (?, ?)",
                     (email_id[0], course_id[0]),
                 )
                 conn.commit()
@@ -149,5 +151,11 @@ class Database:
                 """,
                 (email,),
             )
+            return cursor.fetchall()
+
+    def fetch_all_email(self):
+        with sqlite3.connect(self.db_name) as conn:
+            cursor = conn.cursor()
+            cursor.execute("SELECT * FROM emails")
             return cursor.fetchall()
 
