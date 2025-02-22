@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>UManitoba SyllaBot</title>
+
+  <!-- External Stylesheet (Flask) -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+  <style>
+    /* Basic reset */
+    html, body {
+      margin: 0;
+      padding: 0;
+    }
+
+  
+  </style>
+</head>
+
+<body>
+  <div class="home">
+    <!-- Navbar -->
+    <div class="navbar-container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+          <img src="{{ url_for('static', filename='images/UMLEARNSyllaBot.png') }}"
+               alt="UManitoba SyllaBot Logo" 
+               style="max-height: 50px; margin-right: 10px;">
+        </a>
+      </nav>
+    </div>
+
+    <!-- Carousel -->
+    <div class="carousel-container">
+      <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="{{ url_for('static', filename='images/syllabotcarosuel3.png') }}" 
+                 class="d-block w-100" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img src="{{ url_for('static', filename='images/syllabotcarosuel3.png') }}" 
+                 class="d-block w-100" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img src="{{ url_for('static', filename='images/syllabotcarosuel3.png') }}" 
+                 class="d-block w-100" alt="Third slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExample" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExample" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </a>
+      </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="content-container p-4">
+      <div class="text-container">
+        <h3>UM SyllaBot</h3>
+        <p>
+          SyllaBot is an all-in-one academic companion tailored to the University of Manitoba. 
+          Every semester, as soon as you select your courses, SyllaBot automatically pulls the 
+          essential details from each course outline—like key deadlines, assignment details, 
+          and reading schedules—and distills them into a comprehensive summary. You’ll also receive 
+          weekly emails packed with personalized reminders of what needs to be done for the current week, 
+          from modules to study in each class, upcoming assignments and quizzes, and any pending midterms. 
+          By centralizing your academic responsibilities and keeping you informed through simple, 
+          actionable updates, SyllaBot makes it easier for you to stay organized and focus on what 
+          really matters—your success.
+        </p>
+
+        <!-- Email Input Field -->
+        <form action="/submit" method="POST" id="courseForm">
+            <!-- Email Input Field -->
+            <div class="email-container">
+              <div class="form-group">
+                <label for="emailInput">Enter Your Email:</label>
+                <input type="email" id="emailInput" name="email" class="form-control" placeholder="example@domain.com" required>
+                <small class="text-danger" id="emailError" style="display: none;">Please enter a valid email.</small>
+              </div>
+            </div>
+
+        <!-- Course Buttons -->
+        <div class="container-buttons mt-3">
+          <label>Select Your Courses:</label>
+          <div class="mt-2">
+            <!-- Each course button starts unselected and disabled until a valid email is provided -->
+            <button class="btn-white course-btn" data-selected="false" id="1" disabled>
+              COMP 1012 - Computer Science 1
+            </button>
+            <button class="btn-white course-btn" data-selected="false" id="2" disabled>
+              COMP 1020 - Data Structures
+            </button>
+            <button class="btn-white course-btn" data-selected="false" id="3" disabled>
+              MATH 1300 - Linear Algebra
+            </button>
+            <button class="btn-white course-btn" data-selected="false" id="4" disabled>
+              STAT 1000 - Introductory Statistics
+            </button>
+            <button class="btn-white course-btn" data-selected="false" id="5" disabled>
+              PHIL 1290 - Critical Thinking
+            </button>
+            <button class="btn-white course-btn" data-selected="false" id="6" disabled>
+              COMP 2160 - Programming Practices
+            </button>
+            <button class="btn-white course-btn" data-selected="false" id="7" disabled>
+              COMP 2140 - Data Structures & Algorithms
+            </button>
+            <button class="btn-white course-btn" data-selected="false" id="8" disabled>
+              COMP 2080 - Analysis of Algorithms
+            </button>
+            <button class="btn-white course-btn" data-selected="false" id="9" disabled>
+              ECON 1010 - Introduction to Microeconomics
+            </button>
+            <button class="btn-white course-btn" data-selected="false" id="10" disabled>
+              ECON 1020 - Introduction to Macroeconomics
+            </button>
+          </div>
+        </div>
+
+        <!-- Form to submit data (POST) -->
+        <form action="/submit" method="POST" class="mt-4">
+          <input type="hidden" name="selected_courses" id="selected_courses" value="">
+          <button id="selectCoursesBtn" type="submit" class="btn btn-secondary" disabled>
+            Submit
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer (Non-sticky) -->
+  <footer>
+    <p>&copy; 2025 UofM. All rights reserved.</p>
+    <p>Powered by Google Gemini.</p>
+  </footer>
+
+  <script>
+     const courseForm = document.getElementById("courseForm");
+     const selectCoursesBtn = document.getElementById("selectCoursesBtn");
+
+     courseForm.addEventListener("submit", function(e) {
+    // Disable the submit button immediately to prevent duplicate submissions.
+    selectCoursesBtn.disabled = true;
+  });
+    const emailInput = document.getElementById("emailInput");
+    const emailError = document.getElementById("emailError");
+    
+    const courseButtons = document.querySelectorAll(".course-btn");
+    const hiddenCourses = document.getElementById("selected_courses");
+    document.querySelectorAll('.course-btn').forEach(button => {
+      button.addEventListener('click', (event) => {
+          event.preventDefault(); // Prevent default form submission behavior
+          event.stopPropagation(); // Stop the event from bubbling up
+      });
+  }); 
+
+    function validateEmail(email) {
+      const pattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      return pattern.test(email);
+    }
+  
+    // Enable buttons when a valid email is entered
+    emailInput.addEventListener("input", function () {
+      if (validateEmail(emailInput.value)) {
+        selectCoursesBtn.disabled = false;
+        emailError.style.display = "none";
+        courseButtons.forEach(btn => btn.disabled = false);
+      } else {
+        selectCoursesBtn.disabled = true;
+        emailError.style.display = "block";
+        courseButtons.forEach(btn => btn.disabled = true);
+      }
+    });
+  
+    // Toggle each course button and update the hidden field.
+    courseButtons.forEach((btn) => {
+      btn.addEventListener("click", function () {
+        const isSelected = btn.getAttribute("data-selected") === "true";
+        if (!isSelected) {
+          btn.classList.remove("btn-white");
+          btn.classList.add("btn-blue");
+          btn.setAttribute("data-selected", "true");
+        } else {
+          btn.classList.remove("btn-blue");
+          btn.classList.add("btn-white");
+          btn.setAttribute("data-selected", "false");
+        }
+        updateSelectedCourses();
+      });
+    });
+  
+    function updateSelectedCourses() {
+      let selected = [];
+      courseButtons.forEach(btn => {
+        if (btn.getAttribute("data-selected") === "true") {
+          selected.push(btn.id);
+        }
+      });
+      console.log("Selected courses:", selected.join(","));
+      hiddenCourses.value = selected.join(",");
+    }
+  </script>
+  
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
