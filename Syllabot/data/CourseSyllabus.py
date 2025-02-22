@@ -1,5 +1,5 @@
 class CourseSyllabus:
-    SYLLABUS = """" 
+    Comp4620 = """" 
     Syllabus 
 Penner, C. 
 COMP 4620: Professional Practice in Computer Science 
@@ -1061,111 +1061,756 @@ Missed Lecture Notes
 Students missing lecture notes as a result of absences are responsible for obtaining the missed content 
 on their own accord.  Contact a classmate or the course instructor for their notes but please be aware 
 the instructor is not obliged to create notes for students as a result of absences. 
-Voluntary Withdrawal (VW) Procedures 
-Voluntary withdrawal (VW) is a way for students to leave a class without academic penalty once the 
-Registration Revision Period has ended. If you opt to voluntarily withdraw from a course, you will not be 
-eligible for a refund and, if applicable, will still be required to pay any outstanding tuition fees for the 
-course. On your transcript, the course you have withdrawn from will be listed; however, “VW” will 
-appear in lieu of a grade. If you do not drop a course before the VW deadline, you will receive a final 
-grade in the course on your transcript.  
-Students have the opportunity to voluntarily withdraw (VW) from this class up to March 22 (in the event 
-of date discrepancies, please follow the dates on the Important Dates and Deadlines webpage). By then, 
-you will have received feedback to allow you to assess your progress and determine if you are achieving 
-the grade you are aiming for in this course. If you are unlikely to be successful in the course, or not 
-achieving the grade that you are aiming for, you should consider a VW from the course. You should 
-contact your instructor to review your progress in more detail, or you may discuss the VW option with a 
-Faculty academic advisor. 
-Please note that there are separate deadlines for dropping a course early in a term during the 
-Registration Revision Period. Dropping a course means you are removing that course from your 
-schedule, will not be charged tuition fees for that course, and the course will not appear on your 
-transcript.  
-The Registrar’s Office website, Withdraw from a Course, includes more information on the different 
-ways in which you can withdraw from a course and important dates and deadlines to do so. 
-19 
-Syllabus for COMP 4620: Professional Practice in Computer Science (Winter 2025) 
-Penner, C.  
-Professional Conduct 
-Students in the University community can freely express their thoughts, opinions, and beliefs however 
-they must observe the Respectful Work and Learning Environment Policy and treat each other, staff, 
-and faculty with respect. Students who are alleged to have breached the Respectful Work and Learning 
-Environment Policy will be investigated and disciplined according to the Student Non-Academic 
-Misconduct and Concerning Behaviour Procedure. 
-Academic Integrity 
-Academic integrity is taking responsibility for and being honest with your work and respecting the work 
-of others. Since you are a member of the university community, we want you to learn what that 
-responsibility and honesty entails and how we respect the work of others. 
-The Faculty of Science continues to uphold high standards of academic integrity.  We know that you, our 
-students, support us in this and we count on every one of you to do your part.  We expect all students 
-to strictly adhere to instructions from their professors regarding what resources can and cannot be used 
-for assessments, to follow other rules the professors wish to set, and to adhere to the academic conduct 
-standards of the University and Faculty.  
-To aid professors in assuring that all forms of assessments have been administered fairly, the University 
-will be electronically monitoring all tests, tests, and examinations, included, but not limited to 
-overseeing chatrooms, relevant predatory websites and, in so doing, we will analyze scholastic evidence 
-of individual exams. 
-Students who transgress academic integrity rules will be investigated and disciplined (if justified) 
-according to the Student Discipline By-Law and Student Academic Misconduct Procedure. 
-The list of suggested minimum penalties assessed by the Faculty of Science for acts of academic 
-dishonesty is available on the Faculty of Science website. 
-Copyright 
-All students are required to respect copyright as per Canada’s Copyright Act. Staff and students play a 
-key role in the University’s copyright compliance as we balance user rights for educational purposes 
-with the rights of content creators from around the world. The Copyright Office provides copyright 
-resources and support for all members of the UM community.  
-Please respect copyright. We will use copyrighted content in this course. No audio or video recording of 
-the lectures is allowed in any format, openly or surreptitiously, in whole or in part without permission 
-from the instructor. University guidelines state that copyrighted works, including those created by the 
-course instructor, are made available for private study and research, and must not be distributed in any 
-format without permission. Since it is illegal, do not upload copyrighted works to a learning 
-management system (such as UM Learn), or any website, unless an exception to the Copyright Act 
-applies or written permission has been confirmed.  
-For more information, see the University’s Copyright Office website at http://umanitoba.ca/copyright. 
-Your rights and responsibilities 
-As a student of the UM you have rights and responsibilities. It is important for you to know what you 
-can expect from the University as a student and to understand what the University expects from you.  
-20 
-Syllabus for COMP 4620: Professional Practice in Computer Science (Winter 2025) 
-Penner, C.  
-Become familiar with the policies and procedures of the University and the regulations that are specific 
-to your faculty, college, or school. 
-The Academic Calendar is one important source of information. View the sections of University Policies 
-and Procedures and General Academic Regulations.  
-While all of the information contained in these two sections is important, the following information is 
-highlighted.  
-• If you have questions about your grades, talk to your instructor. There is a process for term 
-work and final grade appeals. Note that you have the right to access your final examination 
-scripts. See the Registrar’s Office website for more information including appeal deadline dates 
-and the appeal form http://umanitoba.ca/registrar/  
-• You are expected to view the General Academic Regulation section within the Academic 
-Calendar and specifically read the Academic Integrity regulation. Consult the course syllabus or 
-ask your instructor for additional information about demonstrating academic integrity in your 
-academic work. Visit the Academic Integrity Site for tools and support 
-http://umanitoba.ca/academicintegrity/ View the Student Academic Misconduct procedure for 
-more information. 
-• The University is committed to a respectful work and learning environment. You have the right 
-to be treated with respect and you are expected to conduct yourself in an appropriate 
-respectful manner. Policies governing behavior include the: Respectful Work and Learning 
-Environment, Student Discipline and, Violent or Threatening Behaviour 
-• If you experience Sexual Assault or know a member of the University community who has, it is 
-important to know there is a policy that provides information about the supports available to 
-those who disclose and outlines a process for reporting. The Sexual Violence policy may be 
-found at: https://umanitoba.ca/governance/governing-documents/governing-documents
-university-community#sexual-violence.  More information and resources can be found by 
-reviewing the Sexual Assault site http://umanitoba.ca/student/sexual-assault/ 
-• For information about rights and responsibilities regarding Intellectual Property view the policy: 
-https://umanitoba.ca/admin/governance/governing_documents/community/235.html 
-• For information on regulations that are specific to your academic program, read the section in 
-the Academic Calendar and on the respective faculty/college/school web site 
-http://umanitoba.ca/faculties/ 
-• Contact an Academic Advisor within YOUR registered faculty/college or school for questions 
-about your academic program and regulations http://umanitoba.ca/academic-advisors/ 
-Student Advocacy 
-Contact Student Advocacy if you want to know more about your rights and responsibilities as a student, 
-have questions about policies and procedures, and/or want support in dealing with academic or 
-discipline concerns.  
-http://umanitoba.ca/student/advocacy/ 
-520 University Centre  
-204 474 7423 
-student_advocacy@umanitoba.c
+    """
+
+    Comp1012="""
     
+Syllabus for COMP 1012: Programming for Engineers and Scientists  1  COURSE SCHEDULE WITH ASSESSMENTS This schedule is subject to change at the discretion of the instructor and/or based on the learning needs of the students but such changes are subject to Section 2.8 of ROASS. More details on UMLearn. Week Dates  (Mon-Fri) Topics (tentative) Quiz (in class) Test (in class) Labs  (attend your section) UMLearn Practice Question Sets (QS) (Completed by Sat) Assignment Released (Fri at 12:00 pm) Assignment Due  (Fri 11:59 pm) 0 Jan 9 – 13 Introduction/Basics - - -  - - 1 Jan 16 – 20 Basics 1  Lab 1 QS1   2 Jan 23 – 27 Strings, I/O 2  Lab 2 QS2   3 Jan 30 – Feb 3 Conditionals (if), while 3  Lab 3 QS3 1  4 Feb 6 – 10 for, files, lists 4  Lab 4 QS4   5 Feb 13 – 17 list, set, dict, tuple 5 1:  (Weeks 0 – 4)* Lab 5 QS5 2 1  Feb 20 – 24  Reading Week  NO CLASSES NO CLASSES NO LABS - - - 6 Feb 27 – Mar 3 Functions 6  Lab 6 QS6   7 Mar 6 – 10  Random numbers 7  Lab 7 QS7 3 2 8 Mar 13 – 17  Arrays 8  Lab 8 QS8   9 Mar 20 – 24  Multi-dimensional arrays 9  Lab 9 QS9 4 3 10 Mar 27 – 31  Objects 10 2:  (Weeks 7 – 9)* Lab 10 QS10   11 Apr 3 – 7 Recursion 11  Lab 11 ** QS11  4 12 Apr 10 – 12 Review, optional additional material -  Lab 12 (Optional) *** -   Exam Period Apr 14 – 2
+    """
+
+    Comp1020="""
+    Attendance : Since attendance is so crucial for learning in the class, attendance is mandatory and will be tracked. 
+See your instructor if you have any concerns. Flipped Classroom: This course is taught as a flipped classroom, meaning you will encounter the course material initially by assigned resources done outside of the class time. Classroom time will be used for interactive lectures, in-class exercises, and group discussions, and peer editing. There may be a small period of direct instruction as needed but the expectation is the lectures are watched beforehand. This is why the class time slot will not be the entire 3 hours as you will be putting some time beforehand. Here is a video that tells you more about the flipped classroom style: https://www.youtube.com/watch?v=qdKzSq_t8k8 A note on this as well: there is always room for change. I provide all video lectures (you do not need to seek them out online however it doesn’t hurt to find more resources). If you ever need additional resources or face time with me, I’m always available for that. In-class Activities :These activities will vary from week to week and lend themselves to the material taught and the assignments. Required Resources : The only required resource to be completed before class we be the supplied video lecture. Supplemental resources such as additional lectures, chapter readings or examples may be provided but are there to enhance your learning and are not part of the “bare minimum” requirement. Quizzes : These will take place insteadofiClicker questions. 2 stage quizzes will be used. This is where you will write a quiz alone, and then have an opportunity to discuss it with your peers before writing it again, ideally achieving a higher mark (don’t worry, no loss if you don’t, read on for more on this). Quizzes will be completed on UMLearn. Assignments: There will be 4 assignments. The release and due date information can be found in the course schedule and the UMLearn calendar. Assignments are to be handed in on UMLearn. Term Test: There will be two term tests in this course. These term tests will not be cumulative. The first is June 7th, in class and the second will be July 19th. Please let me know immediately if there will be a conflict. Term tests are done in crowdmark. Labs: Labs will be released Mondays at 12:00 am and will be due on Fridays at 11:59pm. You must submit your completed labs on UMLearn in the appropriate submission box. Labs will cover course material and aide in your understanding of the topics. Final Exam: The final Examination will be scheduled by the department. Once I know when it is, I will let you all know. It will be cumulative from the start of the course to the end. Classes will follow the general flow: Group activity Debrief of activity Break Small lecture/presentation Open work time/office hours* *in class time will not take the full 3 hours most weeks (because that’s insane on a Monday night in summer). Read on for expectations 
+Syllabus for COMP 1020: Introductory Computer Science 2 3 COURSE SCHEDULE WITH ASSESSMENTS This schedule is subject to change at the discretion of the instructor and/or based on the learning needs of the students but such changes are subject to Section 2.8 of ROASS. More details on UMLearn. DateClass Content Content ChaptersEvaluation Type of Assessment* Due Date - Topic I May 10COURSE INTRODUCTION Introduction to the course and Java Course website in UMLearn, including ROASS. Textbook Ch: 1 Some kind of learning activity (TBD) - - Topic II May 17Object Oriented Programming 1 Textbook Ch: 2 (2.1-2.5, 2.7 only), 3 (omit 3.12,3.13,3.16) Lab 1 May 21 11:59 pm - Quiz 1 (Java Basics) May 17 in class MAY 24 NO CLASS FOR VICTORIA DAY Topic III May 28 Object Oriented Programming 2Textbook Ch: 2 (2.1-2.5, 2.7 only), 3 (omit 3.12,3.13,3.16) A1 Released May 28 9:00 am - - Lab 2 May 28 11:59 pm Quiz 2 (OOP1) May 28 in class Topic IVMay 31Multidimensional Arrays Textbook Ch: 16 Lab 3 June 4 11:59 pm - - Quiz 3 (OOP2) May 31 in class Topic V June 7File I/O Exceptions Topics Covered I –IV Textbook Ch: 4 Term Test 1 (in class) June 7 in class - A1 due June 11 11:59 pm - A2 released June 11 9:00 am Lab 4 June 11 11:59 pm Topic VI June 14Polymorphism 1 Textbook Ch: 10, 11, 12 Lab 5 June 18 11:59 pm - Quiz 4(File I/O Exceptions) June 14 in class June 15 –July 4 SUMMER BREAK TIME Topic VII July 5Polymorphism 2 Textbook Ch: 10, 11, 12 A2 due July 9 11:59 pm - A3 released July 9 9:00 am Lab 6 July 9 11:59 pm Quiz 5 (Polymorphism 1) July 5 in class Topic VIII July 12Strings Arrays Textbook Ch: 5,9 Lab 7 July 16 11:59 pm - Quiz 6 (Polymorphism) July 12 in class -- 
+Syllabus for COMP 1020: Introductory Computer Science 2 5 ASSESSMENT AND GRADES Graded Components Below is an overview of the graded components, and their weight. Details of each component are listed in GRADED COURSE COMPONENTS Type of Assessment Number Weight Assignments 4 (5% each) 20% Labs (lowest is dropped) 10 (1% each) 10% Term Tests 2 (11% each) 22% Final Exam 1 (30%) 30% Participation and Group Activities 9(2% each) 18% Attendance 1% deduction for every class missed up to a total of 10%. You may have one unexcused absence Letter Grade Cut-Points Below is a breakdown of grades and resulting letter grades. Depending on final grade distribution, the instructor may adjust this table. Grade adjustments will generally be limited to moving the cut-points .5%, in either direction. Letter Grade Percentage out of 100 Grade Point Range Final Grade Point A+ 90-100 4.25-4.5 4.5 A 80-89.99 3.75-4.24 4.0 B+ 75-79.99 3.25-3.74 3.5 B 70-74.99 2.75-3.24 3.0 C+ 65-69.99 2.25-2.74 2.5 C 60-64.99 2.0-2.24 2.0 D 50-59.99 Less than 2.0 1.0 F Less than 50 0 Voluntary Withdrawal Please note these important dates and details: •May 20, 2021: This is the last day to drop the class and receive 100% refund. •July 22, 2021: This is the last day to withdraw (VW) from the course (with no refund). •Students who do not formally withdraw from the class before July 22, 2021, through the Registrar’s Office will be assigned a final grade. •Withdrawn courses will be recorded on your official transcript. •Please refer to the Registrar’s Officeweb page for more information. •You are welcome to discuss your grade and course progress with me if you are considering dropping the course. 
+Syllabus for COMP 1020: Introductory Computer Science 2 6 GRADED COURSE COMPONENTS Activities & stage quizzes(18%) •participation mark is made up of inclass activities and 2-stage quizzes that replace iclicker questions •Quizzes will include multiple-choice, multiple true-false questions, short-answer questions, and/or written response questions. Other questions types may also be present •Quiz questions will be based on in-class activities, lectures, and required resources. •Quizzes may use a two-staged approach, where the first stage is written individually and the second stage is written as a group. The group submission can only improve an individual grade. •Grade Appeals: Quiz grades may be appealed within 7 days of the date grades were returnedusing a UMLearn form.Appeals using email or outside of the 7-day window will usually not be considered. Labs(10%) •Labs are completed on a weekly basis, starting with the second week of classes •There will be 11 labs. 10/11 labs will make up your mark (I will drop your worst lab mark, this means You can miss one lab at no penalty) •If you know you need to miss a lab, please reach out first and I can have you attend a different section so you don’t lose the marks. •Labs are out of 3 marks. 1 mark for attending the lab, 1 mark for code completion, 1 mark for coding standards •The only mark given during the lab sections is for attendance, the rest will be given as part of your submission in UMLearn •You only need to complete 1 of the 3 options for each lab (Bronze, Silver, Gold) Assignments(20%) Individually, students will be required to complete 4 assignments throughout the term. •Assignment release and due dates are listed above in the schedule •No extensions will be given without extenuating circumstances and proof Term Tests (22%) •Two term tests are given throughout the term. The dates can be found in the schedule above •They are not cumulative, the topics they will cover will be announced in class as it is dependent on how far in we get each time. •Tests are given in class •Term tests will be 60 minutes in length. There will be a class activity following the tests •These tests will be made up of multiple choice, short answer, coding questions, drawings, etc. It’s all fair game but as we get closer, we will discuss it further. •There are no make-up term tests •Missed tests with valid reason (see attendance policy) will be presented with an alternative. With no valid reason, you will receive a 0. •Grade Appeals: Test grades may be appealed within 7 days of the date grades were returnedusing a UMLearn form.Appeals using email or outside of the 7-day window will usually not be considered. Final Examination (30%) •The final examination will take place outside of class time •It is schedule my the University so once I know when it is, I will announce it •Any conflicts with the date need to be brought up immediately so we may take proper steps •You must achieve a grade of 40% or higher on the final in order to pass this course.
+    """
+
+    Math1300="""
+    Sections: A01:MWF 9:30 –10:20 amLocation: Remote LearningInstructor:N. HarlandA02:TR 8:30 –9:45 amLocation: Remote LearningInstructor:S. BisuiA03:MWF 11:30 am –12:20 pm Location: Remote Learning Instructor:Y. Zhang A04:TR 11:30 am –12:45 pm Location: Remote Learning Instructor:N. Harland All email communication must come from your University email address or it will not receive a response. Students are required to check their email as important information will be sent. 1Minimum Technological Requirements The Faculty of Science has indicated that all students enrolled in this course must ensure they have access to the following: 1. a computing device where one can create and edit documents; 2. an internet connection capable of streaming videos and downloading software; and 3. access to a web-cam and microphone. 2Required material Textbook: Selected chapters and solutions from Elementary Linear Algebra by H. Anton and C. Rorres. The bookstore also sells a “Course Pack” of prior Math 1300 Midterm and Final Exams, with solutions, to help students prepare for exams. This course pack is not required. It’s up to you whether you purchase it!
+MATH 1300: Vector Geometry and Linear AlgebraFALL 2021Page 2 3Course Schedule & Outline Important Dates and Deadlines First day of classes:Sept. 8First day of labs:Sept. 13 Last day to drop (w/ refund):Sept. 21Last day to add:Sept. 22 National Day for Truth and Recon-ciliation (no class): Sept. 30 Thanksgiving (no class)Oct. 11Remembrance Day (no class):Nov. 11 Mid-Term Break (no class):Nov. 8 – 12Last day for voluntary withdrawal:Nov. 23 Last day of classes:Dec. 10Final exam period:Dec. 11 – 23 SectionTitleStartingPage Suggested Homework 1.1Systems of Linear Equations81–11,17 1.2Gaussian Elimination221,5–19, 25, 27 1.3Matrices and Matrix Operations361–5, 1–15, 23 1.4Inverses; Algebraic Properties of Matrices491–5, 11, 13, 17, 19 1.5Elementary Matrices and a Method for FindingA−1 .581–11, 19 1.6More on Systems and Invertible Matrices661–9, 13 1.7Diagonal, Triangular and Symmetric Matrices721–9, 15–19, 23 2.1Determinants by Cofactor Expansion1111–13, 19,21, 27 2.2Determinants by Row Reduction1171–9, 15, 17, 23 2.3Properties of Determinants; Cramer’s Rule1271, 3,7,9,15,25–29 3.1Vectors in 2,3 andn-space1401–13, 17, 19 3.2Norm, Dot Product and Distance inRn 1531–5, 9,11,15–19 3.3Orthogonality1621–23 3.4The Geometry of Linear Systems1701–13, 17 3.5Cross Product1791,3,7–23 1.8Matrix Transformations821,5–9,13,15,19,21 4.9Basic Matrix Transformations inR2andR3 2681–17,25,27 5.1Eigenvalues and Eigenvectors3001–13 (bases not required) 5.2Diagonalization3111–7
+MATH 1300: Vector Geometry and Linear AlgebraFALL 2021Page 3 4Evaluation and Grades ItemDue Date(s)WeightTerm TestsSee Section 740% (in lab) MidtermSee Section 820% Final examSee Section 940%MinimumFinal LetterpercentageGrade Gradeto guaranteePoint A+914.5 A834.0 B+783.5 B723.0 C+662.5 C602.0 D511.0
+    """
+
+    Stat1000="""
+    STAT 1100 Section A01
+Winter 2023
+Time MW 2:30-3:45 pm
+Location 204 Armes
+CRN 55911
+Instructor Jenna G. Tichon
+321 Machray Hall
+Telephone: 204-474-8417
+Email: jenna.tichon@umanitoba.ca
+Preferred Form of Address: Dr. Tichon
+Pronouns: she/her
+Office Hours: Monday: 1:00 - 2:00 p.m.
+Wednesday: 9:00 - 10:00 a.m.
+Thursday: 5:00 - 6:00 p.m.
+Web Pages UMLearn: http://umanitoba.ca/umlearn
+Statistics: http://umanitoba.ca/statistics
+MyLab: http://mlm.pearson.com/
+Crowdmark: http://www.crowdmark.com
+If the above times are not convenient for you, please email or speak to me to arrange an
+alternate time to meet. I am available for Zoom meetings by appointment but you must use
+your U of M email address. I will do my best to return all email sent during the work week
+within 24 hours. While I have listed my office phone, please avoid using it unless there is an
+emergency and you are aware that I am in my office.
+Calendar Description
+(Lab required) This course is recommended for students in mathematically rich disciplines,
+including Statistics, Mathematics, Actuarial Science, Computer Science, and related interdisciplinary programs. Topics to be covered include: summarizing and displaying large datasets,
+sampling, estimation and significance tests, probability calculations, random variables and
+probability distributions, introduction to regression and correlation analysis, statistical software.
+Not to be held with STAT 1000, STAT 1001, STAT 2000, STAT 2001 and STAT 2220.
+Prerequisite: Minimum of 70% in Pre-calculus Mathematics 40S or a grade of B or better in
+Mathematical Skills (MSKL 100) offered by Extended Education or equivalent.
+1
+Course Goals
+By the end of the course we would like students to:
+• Be able to make appropriate choices for numerical and graphical summaries for a wide
+variety of data sets.
+• Formulate statistical hypotheses and perform the appropriate tests for common onesample and two-sample data problems.
+• Identify statistical questions in real world examples and think critically about data
+sources and assumptions made in studies.
+• Be able to effectively communicate basic statistical ideas and concepts to non-statisticians.
+• Use R to create graphical and numerical summaries as well as carry out all learned
+statistical tests.
+STAT 1150 is designed to help prepare students for further study in statistics by giving
+a broad summary of important ideas in probability and inference. There is an emphasis
+on understanding the underlying principles behind the methods used so that the students
+can make judicious choices in their further studies what method should be applied. This
+course will introduce students to the use of statistical computing software to not only apply
+methods but explore the mechanics through simulations.
+Textbook, Readings, and Course Materials
+Required Textbook: Statistics: 13th Edition by James T. McClave and Terry T Sincich
+The textbook is available as an e-text through the purchase of Statistic with MyLab
+which is required for the course. Paper copies of the textbook are available through the
+bookstore if students would like a hard copy as well. An access code to the textbook and
+MyLab is available for purchase through the University of Manitoba Bookstore.
+Supplementary Readings: Occasionally I will assign supplementary readings in the form
+of short articles or website URLs to complement the lectures. These will be made available
+through the course website on UMLearn under the course content for the appropriate unit
+or on the class discussion forum.
+Required Materials: All students will be required to purchase and bring with them to
+class a scientific non-programmable calculator. It will also be required for all quizzes, the
+midterms, and the final exam.
+2
+Using Copyrighted Material
+Please be mindful and respect copyright throughout this course. All course notes, assignments, tests, exams, practice exams, and solutions are either my own intellectual property
+or that of the Department of Statistics. If I use any copyrighted material in my lectures I
+will properly source and follow copyright guidelines and I expect you to do the same. The
+copyrighted works are made available for your personal use and study and must not be
+distributed in any format without express permission.
+You do not have permission to upload any course notes, tests, assignments, or handouts
+to any note sharing websites. Please see the following site for more information: https://
+umanitoba.ca/student/resource/student_advocacy/media/Message_note_sharing_December_
+2013.pdf
+No video or audio recording of lectures or presentations is allowed in any format, openly
+or surreptitiously, in whole or in part without my permission.
+Course Technology
+Use of Technology in the Classroom: Please ensure that any technology used in the
+class is used in a responsible manner that is mindful of the students around you. You may
+have cell phones on your person as long as they are kept on silent and are not brought above
+table height. You may use laptops or tablets in class to help with note taking or follow along
+with any computer demonstrations but please keep only academic matters up on your screen
+and refrain from distracting the students around you.
+R Studio: In this class we will be making use of the statistical software R. You may
+download R from http://cran.utstat.utoronto.ca/ and the R Studio program from
+https://www.rstudio.com/products/rstudio/download/. R Studio will also be available from the statistics computer lab. If you require assistance installing R Studio, you may
+come and see me in my office hours. We will go over the basic installation and use in the
+first lab of the semester.
+Throughout the course I will demonstrate how to carry out many of the calculations
+using R and the labs will make extensive use of R for doing demonstrations and simulations.
+UMLearn: All course material will be posted on UMLearn in the Contents section. All
+important dates can be found on the calendar and I will make class announcements through
+the news feed on the course website. All grades will be posted in the UMLearn Gradebook
+In addition, there will also be discussion forums available. For each class I will open up
+a discussion forum where I will post the material covered that class, any announcements,
+and suggestions for preparation for the next class. Please be in the habit of checking it after
+every class. If you have questions about anything during the lecture or any announcements,
+you can ask directly on the forum for the relevant class. There will also be a discussion forum
+opened up for each lab section where you can ask questions of your T.A. or your fellow lab
+3
+mates.
+All discussion will be monitored closely by me. Please be courteous in posing questions
+and replying to questions on the board. Your best effort should be made to make clear
+questions in complete English sentences.
+Crowdmark: All quizzes, the midterm, and the final exam will be marked using the Crowdmark software, an online grading tool. All exams will be written on provided paper and then
+scanned for grading. Additional instructions will be given prior to the first assessment to
+ensure the examinations can be scanned correctly. Upon completion of the quizzes and the
+midterm, an electronically marked copy of your exam will be emailed to your UManitoba
+e-mail address. I will send out an email when the marked copies have been sent. Please
+check your spam folders if you do not see it in your inbox.
+Notice Regarding Collection, Use, and Disclosure of Personal Information by
+the University: Your personal information is being collected under the authority of the
+University of Manitoba Act. It will be used for the purposes of grading papers and providing
+feedback to students. Personal information will not be used or disclosed for other purposes,
+unless permitted by The Freedom of Information and Protection of Privacy Act (FIPPA).
+The University of Manitoba has taken steps to ensure that its agreement with Crowdmark,
+Inc. for services provided by the Crowdmark application in compliance with FIPPA. Please
+be aware that information held by Crowdmark Inc. may be transmitted to and stored on
+servers outside of the University of Manitoba, or Canada. The University of Manitoba cannot and does not guarantee protection against the possible disclosure of your data including,
+without limitation, against possible secret disclosres of data to a foreign authority in accordance with the laws of another jurisdiction. If you have any questions about the collection
+of personal information, contact the Access and Privacy Office (tel. 204-474-9462), The
+University of Manitoba, 233 Elizabeth Dafoe Library, Winnipeg, Manitoba, Canada, R3T
+2N2.
+MyLab: This class will make use of the learning management system, MyLab. To access
+MyLab you will need to buy an access code from the University of Manitoba bookstore.
+You should then go to http://www.pearsonmylabandmastering.com and under Register
+select Student. When prompted to enter your instructor’s course ID, type tichon73907
+and click Continue. You will then need to create a Pearson account if you do not have
+one from another class. Use the access code purchased from the bookstore to complete the
+registration. From the You’re Done! page, select Go To My Courses and select my
+class. If you are unsure if you will remain in the course, you can use a free temporary access
+code for the first few weeks. You can also find these instructions posted on UMLearn.
+To login in the future, go to http://www.pearsonmylabandmastering.com or use the
+link in UMLearn in the Content Browser.
+In MyLab you will have access to the class textbook, the online assignments which, are
+worth 10% of your final grade, and other videos and supplementary instructional material.
+4
+Expectations: I Expect You To
+In my class I expect you to:
+• Attend lectures and listen attentively.
+• Participate in small group activities when asked.
+• Use technology respectfully as outlined in the syllabus.
+• Come prepared the class with paper, writing utensils, a scientific calculator, and any
+needed statistical tables.
+• Arrive to your exams with writing utensils, a scientific calculator, and a ruler if appropriate.
+• Do your utmost to arrive on time and be as quiet as possible should you unavoidably
+need to arrive late or leave early.
+• Not talk to your neighbours while I am lecturing.
+• Ask questions during my lecture as needed and interrupt me if I write something
+incorrect on the overhead.
+• Be respectful of your lab T.A.s and extend to them all courtesies you would extend to
+me.
+• Be mindful of my time outside of class and allow me sufficient time to answer emails
+or look in to your concerns.
+• Follow all policies in the syllabus and consult it as needed.
+• Come to me with any constructive feedback that would improve the running of the
+course.
+• Not come to class when you are feeling ill.
+• Look to the class folder on UMLearn and review all material if you miss class, as well
+as connect with a fellow classmate to get any missed notes.
+Expectations: You Can Expect Me To
+As your instructor you can expect me to:
+• Treat you with respect inside and outside of the classroom.
+• Arrive early to class and remain for a few minutes afterwards to answer questions.
+• Come prepared to my lectures.
+5
+• Be available during my office and make my best attempt to provide sufficient notice if
+an office hour needs to be moved or canceled.
+• Answer your questions thoughtfully and follow up if needed.
+• Listen to your feedback/concerns and do my best to take reasonable requests in to
+account.
+• Monitor the lab demonstrators and ensure quizzes are retuned in a reasonable time
+period.
+• Set assessments that are reasonable and contain questions that match the learning
+objectives for the course.
+• Be passionate about my subject and what I teach.
+Should I be ill, I will work with my Department to find a substitute to continue teaching the
+class in-person. In the event a suitable instructor cannot be found, I may give the lecture
+synchronously or provide asynchronous content through Zoom or UMLearn for up to 5 days.
+An email will be sent to students’ UM email and a posting will be made on UMLearn the
+night before class, or as soon as possible, if this is the case.
+Academic Dishonesty: It is important that you understand what constitutes academic
+dishonesty and that you are familiar with the very serious consequences. Links to resources
+that describe academic dishonesty (including plagiarism, cheating, inappropriate collaboration and examination impersonation, as well as typical penalties) can be found at:
+http://www.umanitoba.ca/student/resource/student_advocacy/academicintegrity/
+students/a-to-i-what-is-academic-integrity.html#cheating-on-exams
+http://www.umanitoba.ca/student/resource/student_advocacy/academicintegrity/
+students/student-academic-misconduct-faq.html
+https://www.sci.umanitoba.ca/students/undergraduate-students/
+academic-resources/academic-integrity-2/
+I expect students to hold themselves to the highest standards of academic integrity.
+Impersonation, cheating for hire websites, and using unauthorized materials are very serious
+offences. I expect you to be honest, conduct yourself with integrity, actively encourage your
+peers to conduct themselves with integrity, and uphold the value of what a degree from the
+University of Manitoba means. When you are in doubt, always consult with your instructor.
+My door is always open for discussions on the boundaries of what is and what is not allowed.
+I will also clearly state what the ground rules are for collaboration on any assignment. Asking
+is a sign of integrity, not a signal that you might think of cheating. Always bear in mind that
+what is considered a violation of academic integrity can vary from course to course (even
+with the same instructor) so it is always important to ask and clarify. Ignorance is not an
+acceptable excuse for academic misconduct.
+6
+Recording of Class Lectures
+Your instructor and the University of Manitoba hold copyright over the course materials,
+presentations and lectures which form part of this course. No audio or video recording of
+lectures or presentations is allowed in any format, openly or surreptitiously, in whole or in
+part without permission from your instructor. If you require an audio recording to help you
+play back and study, I require you to first ask my permission and it must only be used for
+your personal use. You should take care to pause and not record your classmates when we
+go into group discussions. While my lectures are not being recorded, I will have the previous
+year’s bite size recordings teaching basic concepts and most questions. This will not align
+100% with questions I do in class this year but will contain all of the basic coverage to help
+you study and get caught up should you miss class.
+Class Communication: The University requires all students to activate an official University email account. Please note that all communication between your instructor and you as
+a student must comply with the Electronic Communication with Students Policy. Please see
+http://umanitoba.ca/admin/governance/governing_documents/community/electronic_
+communication_with_students_policy.html
+You are required to obtain and use your U of M email account for all communication between
+yourself and the university.
+E-mail: To schedule an appointment outside of office hours or to ask a question that would
+not be suitable for the discussion forums (it involves your personal information or the answer
+would not be of interest to other students) you may email me at my university email address.
+Please note that if your question is answered on the course outline (which will be posted on
+UMLearn), or in the discussion posts, I will simply direct you to find the answer yourself.
+This is not because I want to be unhelpful but because I teach three different classes and I
+have over 460 students as well as many other service commitments. Time spent answering
+emails with easily searchable answers is time I not able to spend productively helping everyone. The subject line of your emails should contain “STAT 1150 A01”. All emails should
+start with an opening salutation, be written in complete English sentences and be signed
+with your name and student number. If you are asking a question about a practice problem,
+please include a screenshot of the question, the solution (if applicable), and whatever work
+you have attempted. Please note that I will not divulge grades over email. All emails received during the work week will be replied to within 24 hours. While I will generally check
+my work emails over the weekend in case there is an emergency, you can expect a reply to
+non-urgent matters received over the weekend by Monday at noon.
+Office Hours: My office hours are listed at the top of the course outline. You do not need
+to make an appointment and may just show up to ask any questions that you may have.
+This is the perfect time to ask questions about course material, your assignment, review
+your coursework, or receive help with R. If you can not make my scheduled office hours,
+please email me to make an appointment. I am also available for meetings over Zoom by
+prior arrangement.
+7
+Student Accessibility Services: If you are a student with a disability, please contact
+SAS for academic accommodation supports and services such as note-taking, interpreting,
+assistive technology and exam accommodations. Students who have, or think they may have,
+a disability (e.g. mental illness, learning, medical, hearing, injury-related, visual) are invited
+to contact SAS to arrange a confidential consultation.
+http://umanitoba.ca/student/saa/accessibility/ 520 University Centre
+204-474-7423
+Student accessibility@umanitoba.ca
+8
+Course Schedule and Evaluation
+Please see the course schedule handout for the complete class schedule, including due dates.
+Please note that all dates for content coverage in these schedules are approximate and subject to minor changes. I will assign some questions as videos to watch at home for questions
+that are repetitive and/or similar to other class examples.
+Lab Expectations: This course comes with a mandatory lab component that begins during the first full week of class. The lab will be run by graduate and senior undergraduate
+students from the Department of Statistics with previous lab demonstrating experience.
+Eights labs will contain activities and additional instruction. The material covered is
+testable and is not necessarily also covered during the lecture section so it is important that
+you attend. These labs will have a large group work component and require participation
+in group discussions. I expect that you will treat your classmates and lab demonstrators respectfully and that you will contribute meaningfully and enthusiastically to the discussions.
+Several of these labs will have a short pre-lab activity that I expect for you to complete
+prior to the start of the lab. Please bring with you writing materials, any preparatory work,
+and a calculator. You may wish to bring with you a computer to follow along with the R code.
+Three labs will be taken up by quizzes with short answer questions that require you to
+show your work. Please bring with you writing utensils, a ruler, and a calculator to all quiz
+labs. It is very important that you write your quiz in the section in which you are registered.
+If you write the quiz of another lab section, you will receive a grade of 0 with no exceptions.
+The best 2 out of 3 quizzes will be counted. If you miss a quiz due to illness, you do not
+need to submit anything, it will automatically be counted as your dropped quiz.
+You can see the class schedule handout for the contents of the lab in any given week.
+Note there is no lab the week of February 27th - March 3rd (the first midterm).
+Grading:
+The following will compromise your course mark:
+Midterms (2) /30
+Quizzes (Best 2 of 3) /10
+MyLab Assignments /10
+R Assignments (2) /10
+Participation/Reflections /5
+Final Exam /35
+All marks with the exception of the MyLab assignments will be posted on the gradebook in
+UMLearn. The MyLab final marks will be on the MyLab gradebook. Only the final grade,
+converted to be out of 10, will appear in the UMLearn gradebook after the last day of classes.
+9
+The following are the minimum percentage grades required to receive each of the various
+letter grades: A+ (90%), A (80%), B+ (75%), B (70%), C+ (65%), C (60%), D (50%).
+These are guaranteed grades and the cutoffs will not be adjusted. I round grades ending
+in 0.5 or higher up subject to the condition that a student has been actively participating
+throughout the term and has not forfeited most of their bonus/participation marks.
+There is an additional requirement for obtaining a C+ in the course: to obtain a grade
+of C+ or better, you must obtain at least 50% on the final examination.
+Midterm Info: There are two midterms for this course that will be written in class on
+Wednesday, March 1st and Monday, March 27th. It will consist of a 50 minute individual
+test followed up by a second 20 minute group portion. For this second portion you will
+randomly be divided into groups of 3-5 students. Your mark on your midterm will be the
+better score of 100% your individual mark or weighted as 85% your individual mark plus
+15% your group mark. Please allow for the class period to extend to 3:50 if the transition
+time takes a bit longer. More information on the two-stage exam and pedagogical reasons
+for the testing will be provided in class. You may bring in one single-sided 8.5x11 sheet of
+paper with you into the midterm.
+If you miss the midterm due illness, you must complete the self declaration form and
+hand it in to your professor within 48 hours. The weight of the midterm you do write will
+be increased to 20% and your final exam weight will increase to 45%.
+The first midterm will cover units 1-3 and the second midterm will cover units 4-5. It
+consists of long and short answer questions. For quizzes, the midterm test and the final examination: (i) nonprogrammable handheld calculators are permitted (graphing calculators
+are not permitted), (ii) electronic devices, such as cell phones or headphones, are prohibited,
+(iii) statistical tables will be provided.
+Quiz Info: There will be three short quizzes over the course of the term. I will inform students of the exact material covered on each quiz at least one week in advance. Approximate
+coverage can be found on the lab schedule. I will let you know in advance which formulas
+are provided. You may not bring in a formula sheet.
+Quizzes account for 10% of your final grade. Your percentage grade for quizzes will be
+calculated using the best two of three quiz marks. Note that this policy is designed to
+allow for students to miss one lab due to outside circumstances without requiring a sick note
+and is not primarily designed to increase the grade. They will be graded within one week
+and marks will be posted on the Gradebook. There will be no make-up quizzes.
+MyLab Assignments: Most weeks by Thursday morning I will put a short 2-3 question
+(with possible multiple parts) assignment up on MyLab. They will all consist of multiple
+choice or short answer questions that are graded automatically by the system. These are
+10
+intended to be quick, 15 minute assignments to allow you to self assess and practice easy
+questions from the week. You will have multiple attempts at the short answer questions and
+have the ability to see guided sample questions. I will have a “practice” assignment that
+is not for marks so that you can get used to the system. Further details on how attempts
+work will be given then. As these are designed to be self assessment and keep you on pace,
+I highly recommend that you complete them by the intended due dates. However, to allow
+flexibility, I will not be assigning late marks. It is to your own detriment if you do not keep
+pace. The last day to submit MyLab assignments for marks is the day after the last day of
+classes.
+R Assignments: You will have two assignments that will be computing assignments done
+in R Markdown and turned in electronically by email by 11:59 on their due date. The required files will be posted in the class portal. Information on how to complete them will be
+posted as a video file in UMLearn.
+Participation / Reflections: Throughout the course there will be small activities that
+will comprise your participation marks. Some of these will be practice activities such as the
+Getting To Know You Survey or the R Practice Assignment. Many classes we will be doing
+reflections where I will ask a prompt question and you will be asked to submit a written
+response at the end of class (worth 2 marks each). There may also be a small in class group
+activity for marks. As long as you receive a minimum of 70% of the available marks, you
+will receive 5/5. If you receive between 50-69% of the available marks, you will receive 3/5.
+If you receive less than 50% of the available marks, you will receive 0/5. As there will be
+plenty of extra marks for practice activities and you only need to receive 70% of the total
+marks, as long as you are attending most classes, you should receive 5/5 without issue. The
+marks are nearly entirely for honest effort at completion as opposed to correctness.
+Practice Questions: Through out the course I will provide extra practice problems in pdf
+form, provide questions in UMLearn quizzes not for marks, and suggest questions from the
+textbook. These are not for marks but you should complete them for the extra practice. The
+pdf questions in particular will be helpful as they were written by me and will reflect the
+way I ask questions on the quizzes and tests. You will also find additional practice problems
+on the MyLab portal under the study plan.
+Final Exam Info: The final exam will be 3 hours in duration and scheduled by the registrar’s office. You may bring one double-sided 8.5x11 sheet of paper with you as a formula
+sheet. The final exam will cover Units 1 – 7, with emphasis on Units 6 – 7. Should you miss
+the final exam or require a deferred, please contact your home faculty. I do not personally
+handle any deferred exam requests
+    """
+
+    Phil1290="""
+    he University of Manitoba
+Department of Philosophy
+Critical Thinking PHIL 1290 (A04)
+Winter 2025
+Class Location: 200 Fletcher Argue
+Class Time: M/W/F 1:30pm – 2:20pm
+Instructor: Gerry Beaulieu
+Office: 454 University College
+e-mail: gerry.beaulieu@umanitoba.ca
+Office Hours: by appointment
+Course Description:
+The aim of this course is to foster the ability to apply rational standards in forming and evaluating our
+beliefs. This is not an easy thing to do for anyone as we all face obstacles to rational thought in the form
+of personal biases. But with hard work we can come to recognize these biases and learn to think
+critically. The practical skills acquired over the semester will serve you throughout your studies and
+beyond the classroom. You will learn to identify, evaluate, and construct reasoned arguments for and
+against various positions on a wide range of topics. Since the aim of the course is practical, we will often
+work through exercises collectively in class. We might have to break up into smaller groups in order to
+do so effectively, depending on the size of the class.
+Required Textbook:
+Vaughn, L. and MacDonald, C. The Power of Critical Thinking: Sixth Canadian Edition. Oxford:
+Oxford University Press, 2023.
+Topics and Readings:
+Unit 1: Understanding and Evaluating Arguments
+- Chapters 1 and 3
+Unit 2: Barriers to Critical Thinking and Fallacies
+- Chapters 2, 4, and 5
+Unit 3: Evaluating Deductive Arguments: Categorical Logic
+- Chapter 6
+Unit 4: Evaluating Deductive Arguments: Propositional Logic
+- Chapter 7
+Unit 5: Evaluating Inductive Arguments: Enumerative Induction, Statistical Syllogisms, Analogical
+Induction, Causal Arguments (Mill’s Methods), Inference to the Best Explanation
+- Chapters 8 and 9
+Final Grade Breakdown:
+First Test on January 24 (20%)
+Second Test on February 14 (20%)
+Third Test on March 7 (20%)
+Fourth Test on March 21 (20%)
+Fifth Test on April 9 (20%)
+N.B. The test dates are provisional. You will be given advance notice if they change. Failure to be
+present on a test day will result in a grade of zero for that test.
+Grading Scale:
+A+ = 95-100; A = 85-94; B+ = 80-84; B = 70-79; C+ = 65-69; C = 55-64; D = 50-54; F = 0-49
+    """
+
+    Comp2160="""
+    Section A01
+Instructor Tim Zapp
+Form of address Tim (They/Them)
+Email zappt3@myumanitoba.ca
+Lecture 10:30am – 11:20am on Mondays, Wednesdays, and Fridays in 172 Agriculture.
+Office hours 1:00pm – 2:30pm on Tuesdays and Thursdays in EITC E2-511, or by appointment.
+Contents
+1 Course Content 2
+course description, goals, prerequisites, textbooks, schedule
+2 Contact 3
+course website, class and office hours, email policy
+3 Assessment 4
+academic integrity policies, marking scheme, due dates and midterm date, illness policies,
+letter grades
+4 Dates and Policies 6
+important dates, copyright and class recordings, additional policies and links
+1
+Programming Practices
+COMP 2160 A01
+Department of Computer Science
+University of Manitoba
+1 Course Content
+1.1 Course Description
+Introduction to issues involved in real-world computing. Topics will include memory management,
+debugging, compilation, performance, and good programming practices.
+1.2 Course Goals
+Upon completing this course, students should be able to:
+• (Idioms) Write software using an unfamiliar programming language idiomatically.
+• (Design) Break software down into functional units.
+• (UNIX) Use a UNIX or UNIX-like operating system to write and build software.
+• (DbC) Write code that does not crash.
+• (Testing) Test and debug software.
+• (Performance) Identify performance problems and solve them with optimizations.
+1.3 Prerequisites
+Students must have completed the following course with a minimum grade of:
+• C+ or higher in COMP 1020 or COMP 1021.
+1.4 Textbook
+There is no required textbook for this course. The following books are recommended:
+• Programming Pearls, second edition by Jon Bentley, Addison Wesley, 2000.
+• The C Programming Language, Second Edition by Brian Kernighan and Dennis
+Ritchie, Prentice Hall, 1988.
+2
+Programming Practices
+COMP 2160 A01
+Department of Computer Science
+University of Manitoba
+2 Contact
+2.1 Class Meetings and Course Content
+Classes will be held in person on Mondays, Wednesdays, and Fridays from 10:30am – 11:20am in
+172 agriculture.
+If you are sick, stay home! Although classes will not be recorded, all notes shown during class will
+be posted on UM Learn.
+If your instructor is sick, either a substitute lecturer will be found or a class cancellation announce-
+ment will be posted on UM Learn.
+2.2 Office Hours
+Office hours will take place in person on Tuesdays and Thursdays from 1:00pm – 2:30pm in EITC
+E2-511, or by appointment.
+2.3 Email Policy
+The best way to contact your instructor is by email. Volume permitting, I will attempt to reply to
+emails within 1 business day.
+The University requires all students to activate an official University of Manitoba email account,
+and use this account for all communication between yourself and the university. Please note that
+all communication between the instructor and you as a student must comply with the Electronic
+Communication with Students policy.
+3
+Programming Practices
+COMP 2160 A01
+Department of Computer Science
+University of Manitoba
+3 Assessment
+3.1 Academic Integrity Policies
+Students are expected to familiarize themselves with the Computer Science Department expec-
+tations for individual work. These expectations apply to all graded components of this course:
+quizzes, assignments, midterm and final exam.
+The Faculty of Science takes academic integrity very seriously. Any evidence of academic dishonesty
+on assignments or tests will be forwarded to the appropriate authorities for potential disciplinary
+actions.
+The University Student Discipline By-Law may be accessed here. Information from the Faculty of
+Science regarding Academic Integrity can be found here.
+3.2 Grading Scheme
+Grades will be calculated as follows.
+Assignments 25%
+Midterm exam 25%
+Final exam 50%
+3.3 Assignments
+There will be 4 assignments. The assignments will be weighted equally. Assignments must be com-
+pleted independently, without any collaboration, discussion, or consultation with others, including
+posting questions to online forums. You may have general discussions about course content and
+class examples with your peers, but you must complete the assignment questions yourself.
+Illness policy. As per the Self-Declaration for Brief and Temporary Absences Procedure and
+Policy, medical documentation is not required for absences of up to 120 hours. A self-declaration
+form must be submitted instead.
+If you miss an assignment deadline due to illness or other circumstances, please submit this form
+either in person or by email as soon as possible, and no later than 48 hours after the absence. The
+weight of the missed assignment will be shifted to the final exam.
+In the absence of documentation, late assignments will receive a score of 0.
+Additional documentation may be requested from students who claim multiple temporary absences
+or absences for more than 120 hours. If you miss significantly more of the course than is covered
+by the Temporary Absences Policy, you should consider speaking to an Academic Advisor about
+an authorized withdrawal.
+Assignment regrading policy. After each assignment’s grades have been published, a folder for
+regrading requests will be opened on UM Learn. If you believe that there is an error in the grading
+of your assignment, please write up a summary of the issue and submit it to this folder. You will
+have one week after the grades have been posted to submit your regrading requests. No requests
+past this deadline will be considered. It is your responsibility to review your assignment feedback
+in a timely manner.
+4
+Programming Practices
+COMP 2160 A01
+Department of Computer Science
+University of Manitoba
+3.4 Midterm
+A 50-minute midterm exam will take place in person in class. The tentative date for the midterm
+is February 14, 2025, although this may be changed (such a change would be announced in class
+and on the course UMLearn page).
+Illness policy. As per the Self-Declaration for Brief and Temporary Absences Procedure and
+Policy, medical documentation is not required for absences of up to 120 hours. A self-declaration
+form must be submitted instead.
+If you miss the midterm due to illness or other circumstances, please submit this form either in
+person or by email as soon as possible, and no later than 48 hours after the absence. The weight
+of the midterm will be shifted to the final exam.
+In the absence of documentation, a missed midterm will receive a score of 0.
+Additional documentation may be requested from students who claim multiple temporary absences
+or absences for more than 120 hours. If you miss significantly more of the course than is covered
+by the Temporary Absences Policy, you should consider speaking to an Academic Advisor about
+an authorized withdrawal.
+3.5 Final Exam
+A final exam will be scheduled during the Final Exam Period. The final exam will be two hours
+in length. If you miss the final exam due to illness, you must contact an Academic Advisor in the
+Faculty of Science to request a deferred final. Please familiarize yourself with the policies here.
+A passing grade on the final exam is required in order to pass the class.
+3.6 Letter Grades
+Letter grades will be allocated according to the following scale.
+Grade Lower Bound
+A+ 92
+A 82
+B+ 77
+B 70
+C+ 65
+C 60
+D 50
+F 0
+5
+Programming Practices
+COMP 2160 A01
+Department of Computer Science
+University of Manitoba
+4 Dates and Policies
+4.1 Important Dates
+January 6, 2025 First day of classes
+January 17, 2025 Last date to drop winter term classes
+January 20, 2025 Last date to register winter term classes
+February 17, 2025 Louis Riel Day, university closed
+February 18 – February 21, 2025 Winter term break
+March 19, 2025 VW deadline for winter term classes
+April 11 – April 25, 2025 Exam period
+April 18, 2025 Good Friday, university closed
+    """
+
+    Comp2140="""
+    Course description
+Introduction to the representation, implementation, and analysis of common data structures:
+stacks, queues, hash tables, binary and balanced trees. Algorithms for manipulating data
+structures will be analyzed using asymptotic notation.
+Instructor
+Zoey Kitt
+• Please address me as “Zoey”/she/her
+• Email address: zoey.kitt@umanitoba.ca
+• Office hours: Monday/Wednesday/Friday 10:30am-11:30am in E2-422A
+• No appointments are needed. If you cannot attend office hours, or if you prefer to meet
+remotely, please contact me by email.
+Course goals
+Data structures form the backbone of every interesting application that has ever been built and
+that ever will be built. Being able to implement and analyze data structures is the first step to
+being able to implement and analyze real-world applications.
+This course focuses on implementing common abstract data types (ADTs) using fundamental
+data structures. The data structures include arrays, linked lists, binary search trees, binary
+heaps, hash tables, adjacency lists, and adjacency matrices. The ADTs implemented include
+stacks, queues, priority queues, dictionaries, and graphs. For each ADT, multiple
+implementations are studied, as are algorithms to support each of the ADT’s operations, and
+the corresponding running times and space requirements are analyzed.
+By the end of this course, students will:
+• Specify an abstract data type and its corresponding interface.
+• Implement the common abstract data types: stack, queue, priority queue, dictionary, and
+graph, along with their associated operations, using various (appropriately selected) data
+structures.
+• Implement common data structures and their associated operations, including a doubly
+linked list, a binary search tree, a binary heap, and a hash table.
+• Analyze the running times and space requirements of every data structure/algorithm
+implemented
+Prerequisites
+May not be held with the former COMP 2061. Prerequisite: COMP 1020 or COMP 1021.
+Textbook
+No textbook is required and we will not follow any particular book. It is recommended that you
+have access to a recent textbook on data structures and algorithms. Two options are posted as
+pdfs on UM Learn under Content/Supplementary Resources. As per the Academic Integrity
+and Copyright policies, submitting textbook material as your own is unacceptable and will be
+dealt with accordingly.
+Course Schedule
+The dates in this document are tentative and may change as the course progresses.
+Week Dates Topics Deadline Notes
+1 January 6-10 Math review
+2 January 13-17 More math
+techniques
+Last day to
+drop classes is
+Friday January
+17
+3 January 20-24 Cost functions
+4 January 27-31 Asymptotic notation A1, Friday January
+31
+5 February 3-7 ADTs and linked lists
+6 February 10-14 Stacks, queues, and
+tables
+A2, Friday
+February 14
+February 17-21 Reading week,
+no classes
+7 February 24-28 Hash tables and
+BSTs
+8 March 3-7 Binary search trees A3, Friday March
+7
+9 March 10-14 2-3 trees
+10 March 17-21 AVL trees and heaps A4, Friday March
+21
+VW date is
+Wednesday
+March 19
+11 March 24-28 Heaps and graphs
+12 March 31 - April 4 Graphs A5, Friday April 4
+13 April 7-9 Review Last day of
+classes is
+Wednesday
+April 9
+Technology and contact
+Technology
+The programming language used in COMP 2140 is Java. It is recommended that you use the
+programming environment that you are already familiar with from COMP 1020. Please ensure
+that you meet the following minimum technological requirements:
+• Use of a computing device with the ability to view, create, and edit documents, and install
+software.
+• An internet connection capable of streaming video, accessing web content, and
+downloading and uploading documents.
+It is strongly recommended that you use some kind of removable storage or cloud storage to
+back up your work. Computer failure is not an acceptable excuse for late assignments.
+You must also ensure that you have access to the following services:
+• The COMP 2140 page on UM Learn
+• Crowdmark
+Communication
+Any questions that you have about assignments and course materials should be posted to the
+course forum on UM Learn. The course forum has been configured to allow anonymous posts.
+I may (politely!) reply to e-mails asking about course material or assignments by asking to post
+the question to the forum. I want to make sure that all students in the course have the same
+consistent information to work from for course materials and assignments.
+If you have questions that are specific to you, the best way to contact me is by email. Please
+include “COMP 2140” in the subject line.
+Volume permitting, I will reply to emails and forum posts within 2 business days. I will only reply
+to emails and forum posts during business hours (9:00am-5:00pm Monday to Friday, excluding
+holidays).
+The University requires all students to activate an official University of Manitoba email account,
+and use this account for all communication between yourself and the university. Please note
+that all communication between the instructor and you as a student must comply with the
+Electronic Communication with Students policy.
+Assessment
+Academic integrity policies
+You are expected to familiarize yourself with the Computer Science Department expectations
+for individual work. These expectations apply to all graded components of this course:
+assignments, quizzes, and final exam.
+The Faculty of Science takes academic integrity very seriously. Any evidence of academic
+dishonesty on assignments or tests will be forwarded to the appropriate authorities for
+potential disciplinary actions.
+The University Student Discipline By-Law may be accessed here. Information from the Faculty
+of Science regarding Academic Integrity can be found here.
+Grading scheme
+Grades will be calculated as follows:
+• Assignments: 25% (5 assignments, 5% each)
+• Weekly quizzes: 20% (11 quizzes, 2.2̅% each, lowest two grades dropped. See the
+Quizzes section below for updated grade breakdown)
+• Final exam: 55%
+Assignments
+There will be five assignments, all weighted equally. Instructions will be posted on UM Learn,
+under Course Content/Assignment Instructions. Solutions can be submitted until 11:59pm on
+the due date. That said, recall from earlier in the syllabus that I will only reply to forum posts
+and emails during business hours, so I will not be available to answer last-minute questions.
+Late assignments will be accepted up to 24 hours late, but with a 20% deduction.
+Assignments must be completed independently, without any collaboration, discussion, or
+consultation with others, other than posting questions to the course forum on UM Learn. You
+may have general discussions about course content and class examples with your peers, but
+you must complete the assignment questions yourself.
+If you believe that there is an error in the grading of an assignment you submit, please send me
+an email describing the issue and I will look into making a correction.
+Illness and other extenuating circumstances
+As per the Self-Declaration for Brief and Temporary Absences Procedure and Policy, medical
+documentation is not required for absences of up to 120 hours. A self-declaration form must
+be submitted instead.
+If you miss an assignment deadline due to illness or other circumstances, please submit this
+form either in person or by email as soon as possible, and no later than 48 hours after the
+absence. The weight of the missed assignment will be shifted to the final exam.
+In the absence of documentation, late assignments will be penalized as described above (20%
+deduction).
+Additional documentation may be requested from students who claim multiple temporary
+absences or absences for more than 120 hours. If you miss significantly more of the course
+than is covered by the Temporary Absences Policy, you should consider speaking to an
+Academic Advisor about an authorized withdrawal.
+Quizzes
+There will be a short weekly quiz at the start of class class every Friday, excluding the first and
+last full week of the term (so the first quiz is on January 17 and the last is on April 4). The
+quizzes are closed-book, so you are not allowed to look at course materials while writing a
+quiz.
+Originally, each quiz was worth 2%, and the lowest quiz mark would be dropped. Due to
+extreme weather on January 17, I changed the policy such that your two lowest quiz marks will
+be dropped and not count toward your final grade. This means each quiz is now worth 2.2̅ %.
+Final exam
+A final exam will be scheduled during the final exam period, April 11-25. If you miss the final
+exam due to illness or other circumstances, you must contact an Academic Advisor in the
+Faculty of Science to request a deferred final. Please familiarize yourself with the policies here.
+A passing grade on the final exam is required in order to pass the class.
+Letter grades
+Letter grades will be allocated according to the following scale
+    """
+
+    Comp2080="""
+    
+If possible, contact your instructor for term work such as a quiz, midterm/test,assignment, lab exercise at least 24 hours prior to the due date. If you areunable to do that before the due date, you need to contact your instructor within48 hours of the date of the missed academic work at the latest.In the case of a missed final exam (scheduled in the final examination period), youneed to contact an academic advisor in your faculty of registration within 48 hoursof the date of the exam. It is your home faculty that decides whether or not youare eligible to write a deferred exam.11 Important notes about remote learning during theCOVID-19 pandemicThe information contained in this syllabus represents the current plan under a best-casescenario. Unexpected circumstances or technical problems could make it necessary toalter some parts of this syllabus. If changes are necessary, they will be communicatedon the course website in UMLearn. For this reason, it is your responsibility to regularlycheck the announcements, the calendar and the discussion forum in UMLearn.Students enrolled in this course must ensure they satisfy the following minimum techno-logical requirements:A computing device where one can create and edit documents.A stable internet connection capable of streaming videos and downloading software,and allowing you to take online exams.Access to a web-cam and microphone.12 Determination of letter gradesThe minimum percentage grade required for D, C, C+, B, B+, A, and A+ will be 50, 60,65, 70, 75, 80, and 90%, respectively, plus or minus 5%. Adjustments will be made onlyto ensure grades are assigned fairly. For example, if three students received 67%, 69.95%,and 70.00%, with no others in that range, then the minimum B grade would be adjustedto 69% rather than 70% to avoid unfairly giving different letter grades for 69.95% and70.00%.
+    """
+
+    Econ1010="""
+violate the fundamental ethical principles of the College community and compromise the worthof work completed by others. Students found to have breached the regulations related to any form of academic misconductincluding but not limited to plagiarism and cheating will be subject to the following measures:• First Offence: Awarded “0” for the assessment and given a permanent record on their file• Second Offence: Awarded “0” for the course, regardless whether the offence was committed inthe same course or another course• Third Offence: Risk expulsion from ICM and the cancellation of Study Permit•All students must review the information from the Faculty of Arts regarding Academic Integrity,Penalties for Academic Dishonesty, Avoiding Academic Dishonesty, and Resources to Help YouMaintain Academic Integrity•Further, students must review the full excerpt of the ICM Academic Integrity Policy (below): http://umanitoba.ca/faculties/arts/student/student_responsibilities.htmlIt   is   the   student’s   responsibility   to   be   aware   of   the   Academic   Integrity   Policy   and   theconsequences of violating it. MAKE-UP EXAMS ICM does not offer any make-up opportunities for missed final exams. Please be sure to check your examschedule very carefully. If you miss an exam for any reason, please contact an advisor immediately. MISSED EXAM/TEST/LAB/ASSIGNMENT/QUIZ You will get a zero in it. You are not permitted to write make-up exams, except for documented medicalor   compassionate   reasons.   Assignments/quizzes   submitted   late   will   not   be   entertained   and   will   berejected. No credit for such late assignments/quizzes will be given.VOLUNTARY WITHDRAWAL Withdrawal Deadline (no financial penalty) –January 28, 2024Withdrawal Deadline (no academic penalty) – March. 17, 2024Please   note   that   some   evaluative   feedback   will   be   provided   by   the   voluntary   withdrawal(financial penalty) deadline
+    """
+
+    Econ1020="""
+Myeconlab Course ID: sanchez79420GRADE DISTRIBUTIONA+ (90 and above), A (80-89), B+ (76-79), B (70-75), C+ (66-69), C (60-65), D (50-59), F(below50).All grading is subject to departmental reviewMAKE-UP EXAMSMissed   term tests  will only be accepted in the case of a medical or compassionateemergency.  If you miss  a test for a  valid medical or compassionate reason, you mustreport it to me, if possible, within 2 calendar days following the missed test. In case ofillness you should reach out to me and  submit a mandatory Self-Declaration Form forBrief   or   Temporary   Absence  https://umanitoba.ca/sites/default/files/2022-09/Self%20Declaration%20Fillable%20Form-%20FINAL%20for%20Website.pdfIf you do not  inform  me within 2 calendar days following the missed  test, you willreceive a grade of 0 for that test. Please do not come to campus if you are ill. If you miss a term test and you meet above requests, the weight of it will be placed on thefinal  exam. It will be your responsibility to recall me about the missed evaluation as soon as youare done with the final exam. Failure to do it may give you a zero in the missed evaluation grade. GRAIDING APPEALINGStudents appealing any term work, whether it is informal or formal, must do so within 10 working days of receiving their mark (published date at UMlearn)VOLUNTARY WITHDRAWAL Please   note   that   some   evaluative   feedback   will   be   provided   by   the   voluntary   withdrawal(financial penalty) deadline date which is   April 22   nd  , 2023   
     """
