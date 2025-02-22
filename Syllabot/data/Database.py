@@ -1,5 +1,7 @@
 import sqlite3
 
+from Syllabot.data.CourseSyllabus import CourseSyllabus
+
 
 class Database:
     def __init__(self, db_name="courses.db"):
@@ -49,7 +51,7 @@ class Database:
             try:
                 cursor.execute(
                     """
-                    INSERT INTO courses (course_code, course_name, year, semester, course_outline) 
+                    INSERT OR IGNORE INTO courses (course_code, course_name, year, semester, course_outline) 
                     VALUES (?, ?, ?, ?, ?)
                     """,
                     (course_code, course_name, year, semester, course_outline),
@@ -63,7 +65,7 @@ class Database:
         with sqlite3.connect(self.db_name) as conn:
             cursor = conn.cursor()
             try:
-                cursor.execute("INSERT INTO emails (email) VALUES (?)", (email,))
+                cursor.execute("INSERT OR IGNORE INTO emails (email) VALUES (?)", (email,))
                 conn.commit()
             except sqlite3.IntegrityError:
                 raise ValueError(f"Email {email} already exists!")
@@ -79,13 +81,15 @@ class Database:
             course_id = cursor.fetchone()
 
             if not email_id:
-                raise ValueError(f"Email {email} not found.")
+                self.insert_email(email)
+                cursor.execute("SELECT id FROM emails WHERE email = ?", (email,))
+                email_id = cursor.fetchone()
             if not course_id:
                 raise ValueError(f"Course {course_code} not found.")
 
             try:
                 cursor.execute(
-                    "INSERT INTO course_registrations (email_id, course_id) VALUES (?, ?)",
+                    "INSERT OR IGNORE INTO course_registrations (email_id, course_id) VALUES (?, ?)",
                     (email_id[0], course_id[0]),
                 )
                 conn.commit()
@@ -150,4 +154,24 @@ class Database:
                 (email,),
             )
             return cursor.fetchall()
+
+    def fetch_all_email(self):
+        with sqlite3.connect(self.db_name) as conn:
+            cursor = conn.cursor()
+            cursor.execute("SELECT * FROM emails")
+            return cursor.fetchall()
+
+    def fill_data(self):
+        self.insert_course("COMP 1012", "Computer Science 1", 2025, "Fall", CourseSyllabus.SYLLABUS)
+        self.insert_course("COMP 1020", "Data Structures", 2025, "Fall", CourseSyllabus.SYLLABUS)
+        self.insert_course("MATH 1300", "Linear Algebra", 2025, "Fall", CourseSyllabus.SYLLABUS)
+        self.insert_course("STAT 1000", "Introductory Statistics", 2025, "Fall", CourseSyllabus.SYLLABUS)
+        self.insert_course("PHIL 1290", "Critical Thinking", 2025, "Fall", CourseSyllabus.SYLLABUS)
+        self.insert_course("COMP 2160","Programming Practices", 2025,"Fall",CourseSyllabus.SYLLABUS)
+        self.insert_course("COMP 2140","Data Structures & Algorithms",2025,"Fall", CourseSyllabus.SYLLABUS)
+        self.insert_course("COMP 2080","Analysis of Algorithms",2025,"Fall",CourseSyllabus.SYLLABUS)
+        self.insert_course("ECON 1010","Introduction to Microeconomics",2025,"Fall", CourseSyllabus.SYLLABUS)
+        self.insert_course("ECON 1020","Introduction to Macroeconomics",2025,"Fall", CourseSyllabus.SYLLABUS)
+        print(self.fetch_courses())
+
 
