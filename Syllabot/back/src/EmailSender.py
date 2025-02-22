@@ -39,33 +39,6 @@ def send_html_email(email_receiver, subject, body):
 email_receiver = "mahamedyossef51@gmail.com"
 subject = "Weekly update from Syllabot"
 
-body = """
-**Week 3 (January 27 - January 31)**
-
-*   **January 27/28:**
-    *   Case Study 1.
-    *   Location: POD Breakout rooms.
-    *   Preparation: Review notes on Required Resources and workshop.
-    *  Written Reflection 1 due.
-
-*    **January 29/30**
-      * None
-
-*    **January 30**
-      * Tutorial
-      * Quiz 1
-      * Locations:
-        *   A01: 202 and 204 St John's College.
-        *   A02: 205 Armes.
-      * 12,5% of Final Grade.
-
-*    **January 31**
-      *Written Reflection 1 Due Date.
-      *5% (Written Reflection)
-
-"""
-
-
 def format_email_body(ai_response):
     # Convert markdown-like syntax to HTML
     ai_response = re.sub(r'\*\*(.*?)\*\*', r'<strong>\1</strong>', ai_response)  # Bold text
@@ -111,10 +84,11 @@ def format_email_body(ai_response):
     """
     return body
 
-# Example usage
-ai_response = byWeek("3", CourseSyllabus.SYLLABUS)
-formatted_body = format_email_body(ai_response)
-msg = MIMEText(formatted_body, 'html')
-print(msg)
-send_html_email(email_receiver , subject , msg)
-######
+def sendEmail(week, Syllabus, email):
+    ai_response = byWeek(week, Syllabus)
+    formatted_body = format_email_body(ai_response)
+    msg = MIMEText(formatted_body, 'html')
+    print(msg)
+    send_html_email(email, subject, msg)
+
+#sendEmail("2", CourseSyllabus.SYLLABUS, e)
