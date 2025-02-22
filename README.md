@@ -21,9 +21,9 @@ SyllaBot is an innovative web-based tool developed for **DevClub Hackathon 2025*
    ```
 
 ## 🤝 Contributing
-**Mohamed Youssef.**
-**Marwan Hamed.**
-**Omar Koraim.**
+**Mohamed Youssef**  
+**Marwan Hamed**  
+**Omar Koraim**
 
 
 ---
