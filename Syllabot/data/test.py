@@ -44,6 +44,8 @@ print("Courses registered by test@eSxample.com:", db.fetch_registered_courses("t
 print("all coureses in system", db.fetch_courses() )
 print("all emails", db.fetch_all_email())
 
+tt= Database()
+
 
 
 
