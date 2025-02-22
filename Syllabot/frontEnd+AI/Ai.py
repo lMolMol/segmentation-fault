@@ -5,7 +5,7 @@ import os
 app = Flask(__name__)
 
 # Your API key and endpoint
-API_KEY = "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"
+API_KEY = ""#"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"
 url = "https://openrouter.ai/api/v1/chat/completions"
 
 # Your syllabus info (or any long text content)
