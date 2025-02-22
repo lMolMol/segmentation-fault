@@ -37,13 +37,14 @@
     <div class="container-fluid mt-4">
       <h2>SyllaBot Response</h2>
       <!-- 'pre-wrap' ensures any newlines in {{ output }} become line breaks -->
-      <p>{{ output }}</p>
+      <p>{{ output|safe }}</p>
       <a href="/" class="btn btn-primary mt-3">Back to Home</a>
     </div>
 
     <!-- Footer -->
     <footer class="text-center mt-4">
       <p>&copy; 2025 UofM. All rights reserved.</p>
+      <p>Powered by Google Gemini.</p>
     </footer>
   </div>
 
