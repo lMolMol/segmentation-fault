@@ -1,6 +1,14 @@
 import requests
+import os
 
-API_KEY = "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"
+from dotenv import load_dotenv
+import os
+
+# Load environment variables from the .env file in the same directory
+load_dotenv()
+
+
+API_KEY = os.getenv("API_KEY")
 url = "https://openrouter.ai/api/v1/chat/completions"
 
 headers = {
@@ -8,7 +16,6 @@ headers = {
     "Content-Type": "application/json"
 }
 
-print("bruh")
 token = 0
 
 while token < 9:
